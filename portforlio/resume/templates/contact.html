@@ -1,0 +1,61 @@
+{% extends "base.html" %} {% load static %} {% block content1 %}
+<div class="row mx-3">
+  <div class="col-4 mt-5">
+    <div class="logo-links col-12 text-center align-item-center my-5">
+      <h2 class="mt-5">Stay connecteed</h2>
+      <a
+        href="https://www.bogaha2001@gmail.com"
+        target="_blank"
+        style="text-decoration: none"
+        ><h5 class="mt-5">bogaha2001@gmail.com</h5></a
+      >
+      <div class="mt-5">
+        <a
+          href="https://www.linkedin.com/in/thisarabogahawatta123/"
+          target="_blank"
+          class="ms-3"
+          ><img
+            src="static/images/linkedin-logo2.png"
+            alt="linkedin logo"
+            width="50"
+            height="50"
+            class="social-links"
+        /></a>
+
+        <a href="https://github.com/Thisara007" target="_blank" class="ms-3"
+          ><img
+            src="static/images/github_logo2.png"
+            alt="linkedin logo"
+            width="50"
+            height="50"
+            class="social-links"
+        /></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-5 offset-1">
+    <div class="row form-container">
+      <form class="contact-form">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail</label>
+          <input type="text" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">Mobile</label>
+          <input type="text-area" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label for="msg" class="form-label">Message</label>
+          <textarea type="text-area" class="form-control" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-light">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endblock content1 %}

@@ -1,0 +1,40 @@
+{% extends "base.html" %} {% load static %} {% block content1 %}
+
+<div class="row">
+<div class="short-content-box col-4 my-1 mx-2">
+  <div class="about-img text-center align-item-center my-2">
+    <img src="{% static "images/profile2.jpg" %}" alt=" images" width="200"
+    height="200" class="about-photo">
+  </div>
+  <div class="row text-left my-4 mx-3" style="height: 200px;">
+    <table > 
+        <tr style="border-top-width:10;">
+            <td class="text-center col-1" ><span class="buletpin"> >_ </span></td>
+            <td class="col-7"><h5>Thisara Priyashan<h5></td>
+        </tr>
+        <tr style="border-top-width:10;">
+            <td class="text-center col-1"><span class="buletpin"> >_ </span></td>
+            <td class="col-7"> <h5>Bsc(Hons) Computer Science,<br><span class="Uni_link"><a href="https://www.jfn.ac.lk/" target="_blank">University of Jaffna,Sri Lanka</a></span><h5></td>
+        </tr>
+        <tr style="border-top-width:10;">
+            <td class="text-center col-1"><span class="buletpin"> >_ </span></td>
+            <td class="col-7"><h5>Python Developer / ML Engineer<h5></td>
+        </tr>
+    </table>
+    </div>
+</div>
+<div class="about-content col-7 my-3 mx-2">
+    <p class="about-content-p">Hi, I'm Thisara Priyashan, a passionate Python Developer specializing in the Django framework. I hold a BSc (Hons) in Computer Science from the University of Jaffna and have a strong enthusiasm for Artificial Intelligence and Machine Learning.</p>
+    <p class="about-content-p">I thrive on solving complex problems, learning new technologies, and continuously improving my skills. As a quick learner, I adapt to challenges efficiently and stay up to date with the latest advancements in tech. Whether it's building scalable web applications or exploring AI-driven solutions, I am always eager to push boundaries and innovate.   </p>
+<div class="text-stack">
+    <h5 class="mt-5">Tech stack</h5>
+    <img src="static/images/py_logo.png" alt="py logo" width="70" height="70" class="about-logo" style="margin:34px;">
+    <img src="static/images/html_logo.png" alt="py logo" width="70" height="70" class="about-logo" style="margin:34px;">
+    <img src="static/images/dj_logo.png" alt="py logo" width="70" height="70" class="about-logo" style="margin:34px;">
+    <img src="static/images/TF_logo.png" alt="py logo" width="70" height="70" class="about-logo" style="margin:34px;">
+    <img src="static/images/Css_logo.png" alt="py logo" width="70" height="70" class="about-logo" style="margin:34px;">
+    
+</div>
+</div>
+</div>
+{% endblock content1 %}

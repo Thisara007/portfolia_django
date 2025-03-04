@@ -1,0 +1,92 @@
+.navbar .nav-link:hover {
+  color: rgba(255, 0, 150, 1);
+  font-weight: bold;
+  text-decoration: underline;
+}
+.navbar .nav-link {
+  color: rgba(0, 255, 200, 1);
+  font-size: 1.2rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.navbar-brand {
+  color: rgba(0, 255, 200, 1);
+  font-size: 2rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.navbar-brand:hover {
+  font-weight: bold;
+  color: rgba(255, 0, 150, 1);
+  text-decoration: underline;
+}
+
+.home-txt h1,
+h4,
+h5,
+h2 {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+}
+body {
+  background-color: rgba(20, 0, 30);
+  overflow-x: hidden;
+}
+.profile-img-container {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.profile-img {
+  width: 120%;
+  height: auto;
+  display: block;
+}
+.social-links {
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+
+  justify-content: center;
+  align-items: center;
+}
+.about-photo {
+  overflow: hidden;
+  border-radius: 10%;
+  border: 2px solid #ccc;
+  justify-content: center;
+  align-items: center;
+}
+.buletpin {
+  color: rgba(255, 0, 150, 1);
+  font-size: small;
+}
+.Uni_link a {
+  font-size: small;
+  color: rgba(0, 255, 200, 1);
+  text-decoration: none;
+}
+.row h5 {
+  color: rgba(0, 255, 200, 1);
+  font-weight: normal;
+}
+.about-content-p {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.project-box .btn {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.certificate-box {
+  overflow: hidden;
+}
+.certificate-box p,
+a {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: small;
+}
