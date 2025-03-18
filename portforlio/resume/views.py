@@ -1,6 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.contrib.staticfiles.storage import staticfiles_storage
+from .forms import contactform
+
+
 # Create your views here.
 def home(request):
     return render (request,"home.html")
@@ -34,4 +37,5 @@ def resume(request):
         return HttpResponse("resume not found",status=404)
     
 def contact(request):
-    return render (request,"contact.html")
+    form=contactform()
+    return render (request,"contact.html",{"data":form})
